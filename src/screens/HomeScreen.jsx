@@ -57,7 +57,7 @@ export default function HomeScreen() {
 							rel='noopener noreferrer'
 							className='text-center text-2xl lg:text-4xl AchivoSemiBold mt-10 text-white font-semibold'
 						>
-							7010 Southmoor St. HANOVER, MD 21076
+							GIMPA Greenhill, West Legon
 						</a>
 						<p className='py-10 text-center  text-orange-500 AchivoRegular tracking-widest font-semibold text-lg md:text-2xl'>
 							Church service starts at 10:00AM

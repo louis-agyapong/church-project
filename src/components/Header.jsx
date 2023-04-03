@@ -15,7 +15,7 @@ export default function Header() {
 			className='w-full h-20  flex items-center fixed top-0 justify-between bg-[#161D2F] text-white z-50 AchivoRegular  lg:px-44 px-5'
 		>
 			<a className='flex items-center space-x-32 [&>p]:text-lg [&>p]:cursor-pointer' href='/'>
-				<h3 className='text-2xl lg:text-3xl cursor-pointer uppercase AchivoBold'>The Waterbrook</h3>
+				<h3 className='text-2xl lg:text-3xl cursor-pointer uppercase AchivoBold'>Good News</h3>
 				{/* <div className='w-14 h-14 rounded-full relative overflow-hidden'>
 					<Image
 						src='/images/waterbrook-black.jpeg'

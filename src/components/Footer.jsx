@@ -33,10 +33,10 @@ export default function Footer() {
 			<div className='lg:col-span-2 flex flex-col justify-start'>
 				<div className='flex items-center space-x-32 [&>p]:text-lg [&>p]:cursor-pointer mb-10'>
 					<a className='text-2xl text-white uppercase AchivoBold' href='/'>
-						The Waterbrook
+						Good News Ministries
 					</a>
 				</div>
-				<p className='text-white mb-6 AchivoThin'>@ COPYRIGHT WATERBROOK 2022</p>
+				<p className='text-white mb-6 AchivoThin'>@ COPYRIGHT Good News 2022</p>
 				<a
 					className='mb-4 text-white AchivoThin'
 					href='tel:4438159899'
@@ -47,11 +47,11 @@ export default function Footer() {
 				</a>
 				<a
 					className='mb-4 text-white AchivoThin'
-					href='https://www.google.com/maps/place/7010+Southmoor+St,+Hanover,+MD+21076/@39.1829771,-76.738635,17z/data=!4m6!3m5!1s0x89b7e1fccb3afd83:0x6ffe99f3e495ac4!8m2!3d39.182973!4d-76.7364463!16s%2Fg%2F11qr7wq9r8'
+					href='https://goo.gl/maps/X8zBGSGL7SfcvADQA'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					7010 Southmoor St. HANOVER, MD 21076
+					GIMPA Greenhill, West Legon
 				</a>
 				<a
 					target='_blank'
