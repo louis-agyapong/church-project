@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { AboutScreen } from '../screens'
 
 export default function Header() {
 	const [menuOpen, setMenuOpen] = useState(false)
@@ -18,16 +16,22 @@ export default function Header() {
 		>
 			<a className='flex items-center space-x-32 [&>p]:text-lg [&>p]:cursor-pointer' href='/'>
 				<h3 className='text-2xl lg:text-3xl cursor-pointer uppercase AchivoBold'>The Waterbrook</h3>
+				{/* <div className='w-14 h-14 rounded-full relative overflow-hidden'>
+					<Image
+						src='/images/waterbrook-black.jpeg'
+						className='w-full h-full'
+						objectFit='cover'
+					/>
+					
+				</div> */}
 			</a>
 			<div className='lg:flex items-center space-x-12 [&>p]:text-base hidden [&>p]:cursor-pointer'>
 				<a className='transitionAfter' href='/'>
 					Home
 				</a>
-				<Router>
-					<Routes>
-						<Route className='transitionAfter' path='/about' element='{<AboutScreen />}'>Who We Are</Route>
-					</Routes>
-				</Router>
+				<a className='transitionAfter' href='/about'>
+					Who We Are
+				</a>
 				<a className='transitionAfter' href='/group'>
 					Get Involved
 				</a>
@@ -44,9 +48,9 @@ export default function Header() {
 				}}
 			>
 				{menuOpen ? (
-					<img src='/images/x.svg' width={36} height={36} alt='' />
+					<img src='/images/x.svg' width={36} height={36} />
 				) : (
-					<img src='/images/menu.svg' width={36} height={36} alt='' />
+					<img src='/images/menu.svg' width={36} height={36} />
 				)}
 			</div>
 			<div
